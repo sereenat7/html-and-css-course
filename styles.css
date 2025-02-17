@@ -142,3 +142,7 @@ div {
   .grid-container {
     gap: 50px;
   }
+
+  .item1 {
+    grid-area: 2 / 1 / span 2 / span 3;
+  }

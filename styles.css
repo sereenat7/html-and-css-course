@@ -46,13 +46,7 @@
     word-spacing: 30px;
   }
 
-  @media aural {
-    h1, h2, h3, h4 {
-      voice-family: male;
-      richness: 80;
-      cue-before: url("beep.au")
-    }
-  }
+  
 
   @keyframes mymove {
     from {background-color: red;}
@@ -199,4 +193,9 @@ body {
   body {
     background-color: lavender;
   }
+}
+
+img {
+  offset-path: path('M 50 80 C 150 -20 250 180 350 80');
+  offset-anchor: right center;
 }

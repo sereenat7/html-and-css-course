@@ -41,3 +41,7 @@
   span.test2 {
     writing-mode: vertical-rl;
   }
+
+  p {
+    word-spacing: 30px;
+  }

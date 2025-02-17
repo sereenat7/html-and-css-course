@@ -74,3 +74,15 @@ div {
     background-repeat: no-repeat;
     background-position-y: center;
   }
+
+  h1 {
+    border: 5px solid red;
+  }
+  
+  h2 {
+    border: 4px dotted blue;
+  }
+  
+  div {
+    border: double;
+  }

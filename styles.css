@@ -59,8 +59,12 @@
     to {background-color: blue;}
   }
 
-  <style>
+ 
 h2:after {
   content: ' \00A7';
 }
-</style>
+div {
+    background-color: yellow;
+    color: red;
+    all: initial;
+  }

@@ -58,3 +58,9 @@
     from {background-color: red;}
     to {background-color: blue;}
   }
+
+  <style>
+h2:after {
+  content: ' \00A7';
+}
+</style>

@@ -146,3 +146,17 @@ div {
   .item1 {
     grid-area: 2 / 1 / span 2 / span 3;
   }
+
+  /* layer 1 */
+@layer {
+  body {
+    background: pink;
+  }
+}
+
+/* layer 2 */
+@layer {
+  body {
+    background: lightblue; /* last layer wins */
+  }
+}

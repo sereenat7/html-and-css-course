@@ -96,3 +96,13 @@ div {
   img {
     clip-path: circle(50%);
   }
+
+  @counter-style crown {
+    system: cyclic;
+    symbols: "\1F451";
+    suffix: " ";
+  }
+  
+  ul {
+    list-style: crown;
+  }

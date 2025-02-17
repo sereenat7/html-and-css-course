@@ -106,3 +106,12 @@ div {
   ul {
     list-style: crown;
   }
+
+  #main div {
+    flex: 1;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row-reverse;
+  }

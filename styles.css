@@ -176,3 +176,11 @@ div.c {
 div.d {
   line-height: 200%;
 }
+
+#test {
+  marker-mid: url(#circle);
+}
+
+#test {
+  marker-start: url(#arrow);
+}

@@ -115,3 +115,26 @@ div {
     display: flex;
     flex-direction: row-reverse;
   }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
+  @font-palette-values --greenAndYellow {
+    font-family: "Bungee Spice";
+    override-colors: 0 yellow, 1 green;
+  }
+  
+  @font-palette-values --pinkAndGray {
+    font-family: "Bungee Spice";
+    override-colors: 0 hotpink, 1 gray;
+  }
+  
+  .alt1 {
+    font-palette: --greenAndYellow;
+  }
+  
+  .alt2 {
+    font-palette: --pinkAndGray;
+  }

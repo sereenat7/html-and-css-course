@@ -29,3 +29,15 @@
     left: 40px;
     top: 60px;
   }
+
+  p.test1 {
+    writing-mode: horizontal-tb;
+  }
+  
+  p.test2 {
+    writing-mode: vertical-rl;
+  }
+  
+  span.test2 {
+    writing-mode: vertical-rl;
+  }

@@ -68,3 +68,9 @@ div {
     color: red;
     all: initial;
   }
+
+  div {
+    background-image: url('w3css.gif');
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }

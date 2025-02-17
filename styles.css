@@ -199,3 +199,8 @@ img {
   offset-path: path('M 50 80 C 150 -20 250 180 350 80');
   offset-anchor: right center;
 }
+
+@media print {
+  orphans: 4;
+  widows: 2;
+}

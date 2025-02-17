@@ -86,3 +86,10 @@ div {
   div {
     border: double;
   }
+
+  @media print {
+    footer {
+      break-after: always;
+    }
+  }
+  

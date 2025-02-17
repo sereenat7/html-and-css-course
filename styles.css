@@ -45,3 +45,11 @@
   p {
     word-spacing: 30px;
   }
+
+  @media aural {
+    h1, h2, h3, h4 {
+      voice-family: male;
+      richness: 80;
+      cue-before: url("beep.au")
+    }
+  }
